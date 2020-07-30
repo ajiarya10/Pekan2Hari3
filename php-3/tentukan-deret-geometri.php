@@ -10,7 +10,7 @@ function tentukan_deret_geometri($arr) {
     for($i=1; $i<sizeof($arr); $i++){
         if(($arr[$i]/($arr[$i-1])) != $ratio){
             return "false<br>";
-        }
+        } 
     }
     return "true<br>";
 }
